@@ -18,6 +18,7 @@ mongoose
   .then(() =>
     app.listen(process.env.PORT, () => {
       console.log("Server running PORT : ", process.env.PORT);
+      console.log("For Pull");
     })
   )
   .catch((error) => {
